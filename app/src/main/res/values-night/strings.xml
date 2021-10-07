@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="numero_1">numero 1</string>
+    <string name="numero_2">numero 2</string>
+    <string name="multiplicacion">Multiplicacion</string>
+    <string name="division">Division</string>
+    <string name="sumar">sumar</string>
+</resources>
