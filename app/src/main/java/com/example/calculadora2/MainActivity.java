@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,21 +27,17 @@ public class MainActivity extends AppCompatActivity {
     public void Sumar(View view){
         int resultadoNumero = Integer.parseInt(numero1.getText().toString()) + Integer.parseInt(numero2.getText().toString());
         Resultado.setText(resultadoNumero + "");
-        Log.d("operacionSuma","Boton suma apretado");
     }
     public void Restar(View view){
         int resultadoNumero = Integer.parseInt(numero1.getText().toString()) - Integer.parseInt(numero2.getText().toString());
         Resultado.setText(resultadoNumero + "");
-        Log.d("operacionResta","Boton resta apretado");
     }
     public void Multiplicar(View view){
         int resultadoNumero = Integer.parseInt(numero1.getText().toString()) * Integer.parseInt(numero2.getText().toString());
         Resultado.setText(resultadoNumero + "");
-        Log.d("operacionMulti","Boton multiplicar apretado");
     }
     public void Dividir(View view){
         int resultadoNumero = Integer.parseInt(numero1.getText().toString()) / Integer.parseInt(numero2.getText().toString());
         Resultado.setText(resultadoNumero + "");
-        Log.d("operacionDividir","Boton dividir apretado");
     }
 }
